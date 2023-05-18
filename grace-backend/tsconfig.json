@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "jsx": "react",
+    "jsxFactory": "h",
+    "module": "commonjs",
+    "inlineSourceMap": true,
+    "outDir": "bin",
+    "rootDirs": ["source"],
+    //"watch": true,
+    //"strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "skipLibCheck": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["src/**/*.ts"]
+}
